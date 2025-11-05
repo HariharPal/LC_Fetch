@@ -1,19 +1,16 @@
 
-# Python cache
+# Ignore CSV and PKL files
+*.csv
+*.pkl
+
+# Ignore JSON files from scraping (if you want)
+*.json
+
+# Ignore Python cache
 __pycache__/
 *.pyc
 
-# Virtual environment
+# Ignore virtual env
 env/
 venv/
 .venv/
-
-# IDE files
-.vscode/
-.idea/
-
-# Log files
-*.log
-
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints/
